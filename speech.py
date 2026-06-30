@@ -44,6 +44,3 @@ class SpeechRecognizer:
         print(f"Heard: {command}")
 
         return command
-if __name__ == "__main__":
-    recognizer = SpeechRecognizer()
-    recognizer.listen()
